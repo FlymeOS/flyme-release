@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spnOverrides>
+    <spnOverride numeric="40402" spn="airtel"/>
+    <spnOverride numeric="40403" spn="airtel"/>
+    <spnOverride numeric="40410" spn="airtel"/>
+    <spnOverride numeric="40416" spn="airtel"/>
+    <spnOverride numeric="40431" spn="airtel"/>
+    <spnOverride numeric="40440" spn="airtel"/>
+    <spnOverride numeric="40445" spn="airtel"/>
+    <spnOverride numeric="40449" spn="airtel"/>
+    <spnOverride numeric="40490" spn="airtel"/>
+    <spnOverride numeric="40492" spn="airtel"/>
+    <spnOverride numeric="40493" spn="airtel"/>
+    <spnOverride numeric="40494" spn="airtel"/>
+    <spnOverride numeric="40495" spn="airtel"/>
+    <spnOverride numeric="40496" spn="airtel"/>
+    <spnOverride numeric="40497" spn="airtel"/>
+    <spnOverride numeric="40498" spn="airtel"/>
+    <spnOverride numeric="40551" spn="airtel"/>
+    <spnOverride numeric="40552" spn="airtel"/>
+    <spnOverride numeric="40553" spn="airtel"/>
+    <spnOverride numeric="40554" spn="airtel"/>
+    <spnOverride numeric="40555" spn="airtel"/>
+    <spnOverride numeric="40556" spn="airtel"/>
+    <spnOverride numeric="42502" spn="Cellcom"/>
+    <spnOverride numeric="42503" spn="Pelephone"/>
+    <spnOverride numeric="42507" spn="HOT mobile"/>
+    <spnOverride numeric="42508" spn="Golan Telecom"/>
+    <spnOverride numeric="42510" spn="Orange-IL"/>
+    <spnOverride numeric="42514" spn="YouPhone"/>
+    <spnOverride numeric="42515" spn="Home Cellular"/>
+    <spnOverride numeric="42516" spn="Rami Levy"/>
+    <spnOverride numeric="46689" spn="台灣之星"/>
+</spnOverrides>

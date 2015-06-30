@@ -1,0 +1,35 @@
+# This script runs last, after all network configuration
+# has completed. It sets a property to let the framework
+# know that setting up the interface is complete.
+
+if [[ $interface == p2p* ]]
+    then
+    intf=p2p
+    else
+    intf=$interface
+fi
+
+# For debugging:
+setprop dhcp.${intf}.reason "${reason}"
+
+case "${reason}" in
+BOUND|INFORM|REBIND|REBOOT|RENEW|TIMEOUT)
+    setprop dhcp.${intf}.ipaddress  "${new_ip_address}"
+    setprop dhcp.${intf}.gateway    "${new_routers%% *}"
+    setprop dhcp.${intf}.mask       "${new_subnet_mask}"
+    setprop dhcp.${intf}.leasetime  "${new_dhcp_lease_time}"
+    setprop dhcp.${intf}.server     "${new_dhcp_server_identifier}"
+    setprop dhcp.${intf}.vendorInfo "${new_vendor_encapsulated_options}"
+    setprop dhcp.${intf}.mtu        "${new_interface_mtu}"
+
+    setprop dhcp.${intf}.result "ok"
+    ;;
+
+EXPIRE|FAIL|IPV4LL|STOP)
+    setprop dhcp.${intf}.result "failed"
+    ;;
+
+RELEASE)
+    setprop dhcp.${intf}.result "released"
+    ;;
+esac

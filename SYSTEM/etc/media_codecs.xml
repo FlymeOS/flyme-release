@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<MediaCodecs>
+    <Include href="media_codecs_google_audio.xml" />
+    <Include href="media_codecs_google_telephony.xml" />
+    <Encoders>
+        <MediaCodec name="OMX.qcom.video.encoder.mpeg4" type="video/mp4v-es" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports"/>
+            <Quirk name="requires-loaded-to-idle-after-allocation"/>
+            <Limit name="size" min="96x64" max="1920x1088" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="1" max="489600" />
+            <Limit name="bitrate" range="1-60000000" />
+        </MediaCodec>
+        <MediaCodec name="OMX.qcom.video.encoder.h263" type="video/3gpp" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports"/>
+            <Quirk name="requires-loaded-to-idle-after-allocation"/>
+            <Limit name="size" min="96x64" max="720x576" />
+            <Limit name="alignment" value="2x2" />
+        </MediaCodec>
+        <MediaCodec name="OMX.qcom.video.encoder.avc" type="video/avc" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports"/>
+            <Quirk name="requires-loaded-to-idle-after-allocation"/>
+            <Limit name="size" min="96x64" max="3840x2160" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="1" max="972000" />
+            <Limit name="bitrate" range="1-100000000" />
+        </MediaCodec>
+        <MediaCodec name="OMX.qcom.video.encoder.vp8" type="video/x-vnd.on2.vp8" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports"/>
+            <Quirk name="requires-loaded-to-idle-after-allocation"/>
+            <Limit name="size" min="96x64" max="3840x2160" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="1" max="777600" />
+            <Limit name="bitrate" range="1-20000000" />
+        </MediaCodec>
+    </Encoders>
+    <Decoders>
+        <MediaCodec name="OMX.qcom.video.decoder.avc" type="video/avc" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports"/>
+            <Quirk name="defers-output-buffer-allocation"/>
+            <Limit name="size" min="64x64" max="3840x2160" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="1" max="972000" />
+            <Limit name="bitrate" range="1-100000000" />
+            <Feature name="adaptive-playback" />
+        </MediaCodec>
+        <MediaCodec name="OMX.qcom.video.decoder.avc.secure" type="video/avc" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports"/>
+            <Quirk name="defers-output-buffer-allocation"/>
+            <Limit name="size" min="64x64" max="3840x2160" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="1" max="972000" />
+            <Limit name="bitrate" range="1-100000000" />
+            <Feature name="adaptive-playback" />
+            <Feature name="secure-playback" required="true" />
+        </MediaCodec>
+        <MediaCodec name="OMX.qcom.video.decoder.mpeg4" type="video/mp4v-es" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports"/>
+            <Quirk name="defers-output-buffer-allocation"/>
+            <Limit name="size" min="64x64" max="1920x1088" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="1" max="489600" />
+            <Limit name="bitrate" range="1-60000000" />
+            <Feature name="adaptive-playback" />
+        </MediaCodec>
+        <MediaCodec name="OMX.qcom.video.decoder.h263" type="video/3gpp" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports"/>
+            <Quirk name="defers-output-buffer-allocation"/>
+            <Limit name="size" min="64x64" max="720x576" />
+            <Limit name="alignment" value="2x2" />
+            <Feature name="adaptive-playback" />
+        </MediaCodec>
+        <MediaCodec name="OMX.qcom.video.decoder.vp8" type="video/x-vnd.on2.vp8" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports" />
+            <Quirk name="defers-output-buffer-allocation" />
+            <Limit name="size" min="64x64" max="3840x2160" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="1" max="777600" />
+            <Limit name="bitrate" range="1-20000000" />
+            <Feature name="adaptive-playback" />
+        </MediaCodec>
+    </Decoders>
+    <Include href="media_codecs_google_video.xml" />
+</MediaCodecs>

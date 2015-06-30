@@ -1,0 +1,18 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.zygote=zygote32
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=2
+persist.radio.use_cc_names=true
+persist.sys.usb.config=mtp
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+camera.disable_zsl_mode=1
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+ro.dalvik.vm.native.bridge=0

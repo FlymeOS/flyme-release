@@ -1,0 +1,68 @@
+#line 1 "external/sepolicy/property_contexts"
+##########################
+# property service keys
+#
+#
+net.rmnet               u:object_r:net_radio_prop:s0
+net.gprs                u:object_r:net_radio_prop:s0
+net.ppp                 u:object_r:net_radio_prop:s0
+net.qmi                 u:object_r:net_radio_prop:s0
+net.lte                 u:object_r:net_radio_prop:s0
+net.cdma                u:object_r:net_radio_prop:s0
+net.dns                 u:object_r:net_radio_prop:s0
+sys.usb.config          u:object_r:system_radio_prop:s0
+ril.                    u:object_r:radio_prop:s0
+gsm.                    u:object_r:radio_prop:s0
+persist.radio           u:object_r:radio_prop:s0
+
+net.                    u:object_r:system_prop:s0
+dev.                    u:object_r:system_prop:s0
+runtime.                u:object_r:system_prop:s0
+hw.                     u:object_r:system_prop:s0
+sys.                    u:object_r:system_prop:s0
+sys.powerctl            u:object_r:powerctl_prop:s0
+service.                u:object_r:system_prop:s0
+wlan.                   u:object_r:system_prop:s0
+dhcp.                   u:object_r:dhcp_prop:s0
+dhcp.bt-pan.result      u:object_r:pan_result_prop:s0
+bluetooth.              u:object_r:bluetooth_prop:s0
+
+debug.                  u:object_r:debug_prop:s0
+debug.db.               u:object_r:debuggerd_prop:s0
+log.                    u:object_r:shell_prop:s0
+service.adb.root        u:object_r:shell_prop:s0
+service.adb.tcp.port    u:object_r:shell_prop:s0
+
+persist.audio.          u:object_r:audio_prop:s0
+persist.logd.           u:object_r:logd_prop:s0
+persist.sys.            u:object_r:system_prop:s0
+persist.service.        u:object_r:system_prop:s0
+persist.service.bdroid. u:object_r:bluetooth_prop:s0
+persist.security.       u:object_r:system_prop:s0
+
+# selinux non-persistent properties
+selinux.                u:object_r:security_prop:s0
+
+# default property context
+*                       u:object_r:default_prop:s0
+
+# data partition encryption properties
+vold.                   u:object_r:vold_prop:s0
+crypto.                 u:object_r:vold_prop:s0
+
+# Flyme kuangqianbo add for mtpd to access system_property {@
+meizu.vpn.              u:object_r:meizu_vpn_prop:s0
+# @}
+
+# ctl properties
+ctl.bootanim            u:object_r:ctl_bootanim_prop:s0
+ctl.dumpstate           u:object_r:ctl_dumpstate_prop:s0
+ctl.fuse_               u:object_r:ctl_fuse_prop:s0
+ctl.mdnsd               u:object_r:ctl_mdnsd_prop:s0
+ctl.ril-daemon          u:object_r:ctl_rildaemon_prop:s0
+ctl.bugreport           u:object_r:ctl_bugreport_prop:s0
+ctl.dhcpcd_bt-pan       u:object_r:ctl_dhcp_pan_prop:s0
+ctl.                    u:object_r:ctl_default_prop:s0
+
+# NFC properties
+nfc.                    u:object_r:nfc_prop:s0
