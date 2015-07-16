@@ -455,7 +455,6 @@ system/bin/vmstat 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/app_process 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/resize2fs 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/getprop 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/bin/install-recovery.sh 0 0 750 selabel=u:object_r:install_recovery_exec:s0 capabilities=0x0
 system/bin/applypatch 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/subsystem_ramdump 0 2000 755 selabel=u:object_r:ssr_exec:s0 capabilities=0x0
 system/bin/mknod 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -668,6 +667,7 @@ system/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libsparse.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libril.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libnfc-nci.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libwnndict.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_mpeg4dec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmtp.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libclcore_debug.bc 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -675,6 +675,7 @@ system/lib/libext2_quota.so 0 0 644 selabel=u:object_r:system_file:s0 capabiliti
 system/lib/libqdMetaData.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libTmsdk-2.0.7-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libgabi++.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libI420colorconvert.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libwebviewchromium_plat_support.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libhardware.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmobilesafe360-sdk-jni-524.2.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -693,6 +694,7 @@ system/lib/libstagefright_wfd.so 0 0 644 selabel=u:object_r:system_file:s0 capab
 system/lib/librilutils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libaudioutils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libRS.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libipc_pref.527.1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libskia.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmedia_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libjni_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -702,6 +704,7 @@ system/lib/libmemtrack.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities
 system/lib/libkeystore_binder.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmmcamera_image_stab.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libem_aitalk5.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libnfc_ndef.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libart-disassembler.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libqdutils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libchromatix_mt9m114b_preview.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -724,6 +727,7 @@ system/lib/libminikin.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=
 system/lib/libart.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_hevcdec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/drm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/drm/libfwdlockengine.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext2_e2p.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libexpat.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libDClient.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -733,6 +737,7 @@ system/lib/libnetworklocation.so 0 0 644 selabel=u:object_r:system_file:s0 capab
 system/lib/libpng.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstdc++.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libentryexpro.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libBMapApiEngine_v1_3_5.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libvorbisidec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libOmxCore.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libunwind-ptrace.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -751,6 +756,7 @@ system/lib/egl 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/egl/egl.cfg 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libpj_opensl_dev.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libttspico.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libOpenMAXAL.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libicui18n.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmmcamera_wavelet_lib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmmcamera_hdr_lib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -760,6 +766,7 @@ system/lib/libunwind.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0
 system/lib/libstagefright_soft_opusdec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext2_profile.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libinputflinger.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libWnnEngDic.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libFFTEm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libEGL.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libril-qc-qmi-1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -775,6 +782,7 @@ system/lib/crtbegin_so.o 0 0 644 selabel=u:object_r:system_file:s0 capabilities=
 system/lib/libicuuc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/liblogwrap.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefrighthw.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/liboemcrypto.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libchromatix_mt9m114b_common.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libwebviewchromium.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libaudiopolicymanager.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -789,6 +797,7 @@ system/lib/libcompiler_rt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilit
 system/lib/libaudioinfo_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libimage_codec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libFace.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libmediandk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libandroidfw.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libtaglib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libchromatix_imx179_preview.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -834,6 +843,7 @@ system/lib/libm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libcutils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libcamera_metadata.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libfilterfw.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libsqlite_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_http_support.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libnativehelper.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext2fs.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -847,6 +857,7 @@ system/lib/libhwui.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_enc_common.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_mpeg4enc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libbluetooth_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libpixelflinger.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmmjpeg_interface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_omx.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libqomx_core.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -878,6 +889,7 @@ system/lib/libchromatix_mt9m114b_snapshot.so 0 0 644 selabel=u:object_r:system_f
 system/lib/libgui.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext2_uuid.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_vorbisdec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libmcode_image.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libsensorservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libdrmframework.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libandroid_runtime.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -885,6 +897,7 @@ system/lib/libexif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libqservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libimg_utils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libblur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libdrmdiag.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libjnigraphics.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext2_com_err.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libz.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -913,6 +926,7 @@ system/lib/libskia_private.so 0 0 644 selabel=u:object_r:system_file:s0 capabili
 system/lib/libQSEEComAPI.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libclcore_neon.bc 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libaudioroute.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libWnnJpnDic.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_vpxdec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libcommon_time_client.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -921,16 +935,19 @@ system/lib/libaudioeffect_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capab
 system/lib/libstagefright_soft_flacenc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libpac.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libexternal.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libmmQSM.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libjhead_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmemalloc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libskia_hw_interface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libaudioresampler.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libadsprpc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libmm-abl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmedialogservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libwilhelm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmediaplayerservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_ffmpegadec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libpatch-1.0.1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libexif_gallery.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libeffects_mosaic.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libbinder.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmeizucamera.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -941,6 +958,7 @@ system/lib/libusbhost.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=
 system/lib/libMzGameCenterLib-jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libkanbox_meizu_gallery_sdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libandroid.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libGLESv3.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libjni_customizecenter_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libavformat.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libnativebridge.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1117,15 +1135,6 @@ system/app/NfcNci/lib/arm/libnfc_nci_jni.so 0 0 644 selabel=u:object_r:system_fi
 system/app/NfcNci/NfcNci.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/UserDictionaryProvider 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/UserDictionaryProvider/UserDictionaryProvider.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/lib/arm/libtbt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/lib/arm/libwtbt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/lib/arm/libamapv304ex.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/lib/arm/libamapv304.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/lib/arm/libmsc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/Life.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBlockService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBlockService/MzBlockService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/FileManager 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1211,7 +1220,6 @@ system/framework/bu.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0
 system/framework/wm.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/mms-common.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/services.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/recovery-from-boot.p 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1285,6 +1293,14 @@ system/priv-app/CustomizeCenter/CustomizeCenter.apk 0 0 644 selabel=u:object_r:s
 system/priv-app/CalendarProvider 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CalendarProvider/CalendarProvider.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm/libjni_gallery_utils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm/libjni_eglfence.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm/libskia_private.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm/libskia_hw_interface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm/libkanbox_meizu_gallery_sdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm/libRefocusModule.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/Gallery.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/MzInput.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1297,6 +1313,7 @@ system/priv-app/MzInput/lib/arm/libjni_mzinput_meizu.so 0 0 644 selabel=u:object
 system/priv-app/Video 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Video/lib/arm/libaccstub.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libluajava.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libustagefright50.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libuplayer23.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1304,9 +1321,11 @@ system/priv-app/Video/lib/arm/libalgms.so 0 0 644 selabel=u:object_r:system_file
 system/priv-app/Video/lib/arm/libffmpeg_jni_qiyi_NORMAL_vfp.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libcpudetect-v7a.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libuffmpeg.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Video/lib/arm/libthumbnailer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libmApptracker_youtu.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libalgms1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libustagefright40.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Video/lib/arm/libwebpbackport.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libffmpeg_jni_qiyi_NORMAL_neon.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libluajava1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libp2p-jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1319,6 +1338,7 @@ system/priv-app/Video/lib/arm/libMMANDKSignature.so 0 0 644 selabel=u:object_r:s
 system/priv-app/Video/lib/arm/libffmpeg_qiyi_neon.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libustagefright43.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libkernel.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Video/lib/arm/libuencrypt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/Video.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/FusedLocation 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/FusedLocation/FusedLocation.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1330,6 +1350,15 @@ system/priv-app/SharedStorageBackup 0 0 755 selabel=u:object_r:system_file:s0 ca
 system/priv-app/SharedStorageBackup/SharedStorageBackup.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MediaProvider 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MediaProvider/MediaProvider.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Life 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Life/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Life/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Life/lib/arm/libtbt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Life/lib/arm/libwtbt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Life/lib/arm/libamapv304ex.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Life/lib/arm/libamapv304.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Life/lib/arm/libmsc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Life/Life.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MmsService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MmsService/MmsService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SettingsProvider 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1507,6 +1536,7 @@ system/vendor/bin 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/bin/vss_init 0 2000 755 selabel=u:object_r:vss_exec:s0 capabilities=0x0
 system/vendor/lib 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/mediadrm 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/lib/mediadrm/libdrmclearkeyplugin.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libidl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libmmcamera2_cpp_module.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libsc-a3xx.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1520,6 +1550,7 @@ system/vendor/lib/librs_adreno.so 0 0 644 selabel=u:object_r:system_file:s0 capa
 system/vendor/lib/libril-qcril-hook-oem.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libmmcamera_imglib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libdsutils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/lib/libmmipl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libmmcamera2_stats_modules.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libvss_nv_iface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libqdi.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1548,6 +1579,7 @@ system/vendor/lib/libmmcamera_imx179_eeprom.so 0 0 644 selabel=u:object_r:system
 system/vendor/lib/libsensor1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libdsi_netctrl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libbccQTI.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/lib/libconfigdb.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libdrmdecrypt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libqcci_legacy.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libdiag.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1574,6 +1606,7 @@ system/vendor/lib/libjpegdhw.so 0 0 644 selabel=u:object_r:system_file:s0 capabi
 system/vendor/lib/libvss_common_core.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libc2d30.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libvss_common_iface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/lib/libsensor_user_cal.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libvss_common_idl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libnetmgr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libmmcamera2_stats_algorithm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1585,6 +1618,7 @@ system/vendor/lib/libvss_nv_idl.so 0 0 644 selabel=u:object_r:system_file:s0 cap
 system/vendor/lib/libqmi_cci.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libbt-vendor.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libqmi_client_qmux.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/lib/libTimeService.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libqmi_encdec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/firmware 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/firmware/cmnlib.b01 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
