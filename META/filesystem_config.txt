@@ -713,9 +713,7 @@ system/lib/libstagefright_soft_h264enc.so 0 0 644 selabel=u:object_r:system_file
 system/lib/libbacktrace_libc++.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_aacenc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libHAOMA.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libswresample.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libams-1.1.4-64b-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libffmpeg_utils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libfilterpack_imageproc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libdiskconfig.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/crtend_so.o 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -945,7 +943,6 @@ system/lib/libmm-abl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0
 system/lib/libmedialogservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libwilhelm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmediaplayerservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libstagefright_soft_ffmpegadec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libpatch-1.0.1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libexif_gallery.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libeffects_mosaic.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -960,7 +957,6 @@ system/lib/libkanbox_meizu_gallery_sdk.so 0 0 644 selabel=u:object_r:system_file
 system/lib/libandroid.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libGLESv3.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libjni_customizecenter_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libavformat.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libnativebridge.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_httplive.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstlport_shared.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -981,18 +977,15 @@ system/lib/libnetd_client.so 0 0 644 selabel=u:object_r:system_file:s0 capabilit
 system/lib/libwifi-service.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libupdate-jni-1.0.1.2002.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libGLES_trace.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libavcodec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libselinux.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libsuspend.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libpowermanager.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libRScpp.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libreference-ril.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_yuv.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libswscale.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libssl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libcameraservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmmcamera_imx179.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libavutil.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libRefocusModule.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_aacdec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext4_utils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1008,7 +1001,6 @@ system/lib/libmmcamera_mt9m114b.so 0 0 644 selabel=u:object_r:system_file:s0 cap
 system/lib/libttsplusmsc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libchromatix_mt9m114b_default_video.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libdce-1.1.2-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libstagefright_soft_ffmpegvdec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libc2dcolorconvert.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_g711dec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
