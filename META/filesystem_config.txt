@@ -1110,7 +1110,13 @@ system/app/PicoTts/PicoTts.apk 0 0 644 selabel=u:object_r:system_file:s0 capabil
 system/app/Reader 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Reader/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Reader/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Reader/lib/arm/libgif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Reader/lib/arm/libwebpimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Reader/lib/arm/libwebp.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Reader/lib/arm/libgifimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Reader/lib/arm/libbitmaps.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Reader/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Reader/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Reader/lib/arm/libmemchunk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Reader/lib/arm/libweibosdkcore.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Reader/Reader.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Bluetooth 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1239,6 +1245,8 @@ system/priv-app/VpnDialogs 0 0 755 selabel=u:object_r:system_file:s0 capabilitie
 system/priv-app/VpnDialogs/VpnDialogs.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/NetworkLocation_baidu 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/NetworkLocation_baidu/NetworkLocation_baidu.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Feedback 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Feedback/Feedback.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzAccountPlugin 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzAccountPlugin/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzAccountPlugin/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
