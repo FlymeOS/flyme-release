@@ -153,7 +153,7 @@ flyme_error_report_manager                u:object_r:system_server_service:s0
 #@}
 
 # Flyme liyd@SDK.FlymeTheme.Feature {@
-flyme_theme_service                       u:object_r:system_server_service:s0
+flyme_theme_service                             u:object_r:system_server_service:s0
 
 #FLYME:guoquanshou@Shell.PermissionControl.Feature {@
 flyme_permission                          u:object_r:system_server_service:s0
