@@ -386,6 +386,9 @@ system/framework/okhttp.jar 0 0 644 selabel=u:object_r:system_file:s0 capabiliti
 system/priv-app 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SoundRecorder 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SoundRecorder/SoundRecorder.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/SoundRecorder/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/SoundRecorder/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/SoundRecorder/lib/arm/libDominantColors.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzAccountPlugin 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzAccountPlugin/MzAccountPlugin.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzAccountPlugin/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -535,6 +538,9 @@ system/priv-app/Tag 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Tag/Tag.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/Music.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Music/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Music/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Music/lib/arm/libaudioinfo_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -738,7 +744,9 @@ system/app/MzSecurity 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/MzSecurity.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm/libupdate-jni-1.0.1.2002.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libams-1.1.4-64b-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm/libpatch-1.0.1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libTmsdk-2.0.7-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libdce-1.1.2-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PacProcessor 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -772,10 +780,14 @@ system/app/MzCloudService/MzCloudService.apk 0 0 644 selabel=u:object_r:system_f
 system/app/MzCloudService/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCloudService/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCloudService/lib/arm/libpj_opensl_dev.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCloudService/lib/arm/libcrypto.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCloudService/lib/arm/libstlport_shared.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCloudService/lib/arm/libpjsipjni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Painter 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Painter/Painter.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Painter/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Painter/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Painter/lib/arm/libDominantColors.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Weather 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Weather/Weather.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Weather/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -866,6 +878,9 @@ system/app/UserDictionaryProvider/UserDictionaryProvider.apk 0 0 644 selabel=u:o
 system/app/LogReport 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/LogReport/LogReport.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calendar 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Calendar/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Calendar/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Calendar/lib/arm/libDominantColors.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calendar/Calendar.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PicoTts 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PicoTts/PicoTts.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1283,7 +1298,6 @@ system/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext4_utils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libblur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext2fs.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libWnnJpnDic.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_g711dec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libopus.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libc2dcolorconvert.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1313,7 +1327,6 @@ system/lib/libstagefright_soft_hevcdec.so 0 0 644 selabel=u:object_r:system_file
 system/lib/libstagefright_http_support.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libnativehelper.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmedia.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libams-1.1.4-64b-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libjavacrypto.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libFFTEm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_vpxdec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1354,7 +1367,6 @@ system/lib/libeffects.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=
 system/lib/libxml.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext2_quota.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libIvw35.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libwnndict.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libsurfaceflinger_ddmconnection.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libskia_private.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libclcore_neon.bc 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1422,7 +1434,6 @@ system/lib/libcrypto.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0
 system/lib/libaudiopolicyservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libinputservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_enc_common.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libTmsdk-2.0.7-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_amrnbenc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/liblogwrap.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libchromatix_mt9m114b_snapshot.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1446,7 +1457,6 @@ system/lib/libdrmframework_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capa
 system/lib/libqomx_core.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libvixl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libvariablespeed.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libdce-1.1.2-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libkanbox_meizu_gallery_sdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libjni_gallery_utils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmdnssd.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1545,7 +1555,6 @@ system/lib/libandroid_servers.so 0 0 644 selabel=u:object_r:system_file:s0 capab
 system/lib/libpowermanager.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libloc_eng.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmediandk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libWnnEngDic.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libicuuc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libtinyalsa.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libsync.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1595,7 +1604,6 @@ system/lib/libexternal.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities
 system/lib/libart-disassembler.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libnfc-nci.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libhardware_legacy.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libjni_customizecenter_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libchromatix_mt9m114b_preview.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libsensorservice.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_amrwbenc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
