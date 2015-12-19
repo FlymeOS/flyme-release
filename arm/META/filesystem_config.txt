@@ -789,10 +789,9 @@ system/app/MzCloudService 0 0 755 selabel=u:object_r:system_file:s0 capabilities
 system/app/MzCloudService/MzCloudService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCloudService/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCloudService/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzCloudService/lib/arm/libpj_opensl_dev.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzCloudService/lib/arm/libcrypto.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzCloudService/lib/arm/libstlport_shared.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzCloudService/lib/arm/libpjsipjni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCloudService/lib/arm/libsnappy-jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCloudService/lib/arm/libjingle_peerconnection_so.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCloudService/lib/arm/libcrypto_framwork.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Painter 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Painter/Painter.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Painter/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -833,6 +832,8 @@ system/app/Camera/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities
 system/app/Camera/lib/arm/libpanorama.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/ExperienceDataSync 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/ExperienceDataSync/ExperienceDataSync.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSimContacts 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSimContacts/MzSimContacts.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/MzAccount.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
