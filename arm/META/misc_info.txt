@@ -1,0 +1,20 @@
+recovery_api_version=3
+fstab_version=2
+blocksize=131072
+boot_size=23068672
+recovery_size=23068672
+recovery_mount_options=ext4=max_batch_time=0,commit=1,data=ordered,barrier=1,errors=panic,nodelalloc
+tool_extensions=device/lge/hammerhead
+default_system_dev_certificate=build/target/product/security/testkey
+mkbootimg_args=--ramdisk_offset 0x02900000 --tags_offset 0x02700000
+use_set_metadata=1
+multistage_support=1
+update_rename_support=1
+blockimgdiff_versions=1,2
+fs_type=ext4
+system_size=1073741824
+userdata_size=13725837312
+cache_fs_type=ext4
+cache_size=734003200
+extfs_sparse_flag=-s
+selinux_fc=out/target/product/hammerhead/root/file_contexts
