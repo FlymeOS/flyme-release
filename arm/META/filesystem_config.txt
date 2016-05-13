@@ -815,6 +815,8 @@ system/app/AppCenter/lib/arm/libblur.so 0 0 644 selabel=u:object_r:system_file:s
 system/app/AppCenter/lib/arm/libbspatch.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCompaign 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCompaign/MzCompaign.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/shutdownlistener 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/shutdownlistener/shutdownlistener.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/CertInstaller 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/CertInstaller/CertInstaller.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/CloudDisk 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -926,6 +928,8 @@ system/app/DocumentsUI 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x
 system/app/DocumentsUI/DocumentsUI.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/WAPPushManager 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/WAPPushManager/WAPPushManager.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/TimeService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/TimeService/TimeService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/KeyChain 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/KeyChain/KeyChain.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzPhoneLocationService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1299,6 +1303,7 @@ system/vendor/lib/egl/libplayback_adreno.so 0 0 644 selabel=u:object_r:system_fi
 system/vendor/lib/egl/libEGL_adreno.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libmmcamera2_c2d_module.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libllvm-qcom.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/lib/libssd.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libFuzzmmstillomxenc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libbccQTI.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libvss_common_idl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1350,6 +1355,7 @@ system/vendor/lib/libacdbrtac.so 0 0 644 selabel=u:object_r:system_file:s0 capab
 system/vendor/lib/libjpegehw.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/mediadrm 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/mediadrm/libdrmclearkeyplugin.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/lib/librpmb.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libgsl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libril-qcril-hook-oem.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/lib/libc2d30.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
