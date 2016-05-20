@@ -188,14 +188,14 @@
 <x>2</x>
 <y>1</y>
 </workspace>
-<workspace>
+<!--<workspace>
 <packagename>com.meizu.mstore</packagename>
 <classname>com.meizu.flyme.appcenter.desktopplugin.view.PluginActivity</classname>
 <shortcut>true</shortcut>
 <screen>1</screen>
 <x>3</x>
 <y>1</y>
-</workspace>
+</workspace>-->
 <workspace>
 <packagename>com.meizu.customizecenter</packagename>
 <classname>com.meizu.customizecenter.CustomizeCenterActivity</classname>
