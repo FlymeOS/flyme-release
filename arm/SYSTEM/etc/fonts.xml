@@ -201,7 +201,7 @@
         <font weight="400" style="normal">Padauk.ttf</font>
     </family>
     <family lang="my">
-        <font weight="400" style="normal">ZawgyiOne.ttf</font>
+        <font weight="400" style="normal">SmartZawgyi.ttf</font>
     </family>
     <family variant="compact">
         <font weight="400" style="normal">NotoSansTeluguUI-Regular.ttf</font>
@@ -329,25 +329,14 @@
     <family>
         <font weight="400" style="normal">Lohit-Odia.ttf</font>
     </family>
-    <!-- Flyme OS font -->
-    <family lang="zh-Hans">
-        <font weight="400" style="normal">SourceHanSansCN-Normal.ttf</font>
-    </family>
-    <family lang="zh-Hant">
-	<font weight="400" style="normal">SourceHanSansCN-Normal.ttf</font>
-    </family>
-    <family lang="ja">
-	<font weight="400" style="normal">SourceHanSansJP-Normal.ttf</font>
-    </family>
-    <family lang="ko">
-	<font weight="400" style="normal">SourceHanSansKR-Normal.ttf</font>
-    </family>
-    <!-- Flyme OS font -->
     <family lang="zh-Hans">
         <font weight="400" style="normal">NotoSansHans-Regular.otf</font>
     </family>
     <family lang="zh-Hant">
         <font weight="400" style="normal">NotoSansHant-Regular.otf</font>
+    </family>
+    <family>
+        <font weight="400" style="normal">NotoColorEmoji.ttf</font>
     </family>
     <family lang="ja">
         <font weight="400" style="normal">NotoSansJP-Regular.otf</font>
@@ -362,15 +351,9 @@
         <font weight="400" style="normal">NotoSansSymbols-Regular-Subsetted.ttf</font>
     </family>
     <family>
-        <font weight="400" style="normal">NotoColorEmoji.ttf</font>
-    </family>
-    <family>
         <font weight="400" style="normal">DroidSansFallback.ttf</font>
     </family>
     <family lang="ja">
         <font weight="400" style="normal">MTLmr3m.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">DroidSansFallback-flyme.ttf</font>
     </family>
 </familyset>

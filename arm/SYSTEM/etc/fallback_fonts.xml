@@ -162,7 +162,7 @@
     </family>
     <family>
         <fileset>
-            <file lang="my">ZawgyiOne.ttf</file>
+            <file lang="my">SmartZawgyi.ttf</file>
         </fileset>
     </family>
     <family>
@@ -373,28 +373,6 @@
             <file>Lohit-Odia.ttf</file>
         </fileset>
     </family>
-    <!-- Flyme OS font -->
-    <family>
-        <fileset>
-            <file lang="zh-Hans">SourceHanSansCN-Normal.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file lang="zh-Hant">SourceHanSansCN-Normal.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file lang="ja">SourceHanSansJP-Normal.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file lang="ko">SourceHanSansKR-Normal.ttf</file>
-        </fileset>
-    </family>
-    <!-- Flyme OS font -->
     <family>
         <fileset>
             <file lang="zh-Hans">NotoSansHans-Regular.otf</file>
@@ -403,6 +381,11 @@
     <family>
         <fileset>
             <file lang="zh-Hant">NotoSansHant-Regular.otf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoColorEmoji.ttf</file>
         </fileset>
     </family>
     <family>
@@ -423,11 +406,6 @@
     <family>
         <fileset>
             <file>NotoSansSymbols-Regular-Subsetted.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file>NotoColorEmoji.ttf</file>
         </fileset>
     </family>
     <family>
