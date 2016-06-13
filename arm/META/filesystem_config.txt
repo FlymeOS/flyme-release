@@ -424,8 +424,6 @@ system/priv-app/DefaultContainerService/lib/arm64 0 0 755 selabel=u:object_r:sys
 system/priv-app/DefaultContainerService/lib/arm64/libdefcontainer_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Shell 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Shell/Shell.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/NetworkLocation_baidu 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/NetworkLocation_baidu/NetworkLocation_baidu.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/FlymeLauncher 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/FlymeLauncher/FlymeLauncher.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -535,6 +533,15 @@ system/priv-app/Dialer 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x
 system/priv-app/Dialer/Dialer.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MusicFX 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MusicFX/MusicFX.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/AMapNetworkLocation_meizu 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/AMapNetworkLocation_meizu/AMapNetworkLocation_meizu.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/AMapNetworkLocation_meizu/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/AMapNetworkLocation_meizu/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/AMapNetworkLocation_meizu/lib/arm/libapssdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/AMapNetworkLocation_meizu/lib/arm/libserverkey.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/AMapNetworkLocation_meizu/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/AMapNetworkLocation_meizu/lib/arm64/libapssdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/AMapNetworkLocation_meizu/lib/arm64/libserverkey.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/TeleService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/TeleService/TeleService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Tag 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -836,6 +843,10 @@ system/app/AppCenter/lib/arm/libblur.so 0 0 644 selabel=u:object_r:system_file:s
 system/app/AppCenter/lib/arm/libbspatch.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCompaign 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCompaign/MzCompaign.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCompaign/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCompaign/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCompaign/lib/arm/libsecurity.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCompaign/lib/arm/libplugin_phone.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/shutdownlistener 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/shutdownlistener/shutdownlistener.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/CertInstaller 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1493,7 +1504,6 @@ system/lib/libnative_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 cap
 system/lib/libaudio-resampler.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/crtend_so.o 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libmmcamera_wavelet_lib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/libnetworklocation.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libeffects.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libxml.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libext2_quota.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1753,7 +1763,6 @@ system/lib/libstagefright_avc_common.so 0 0 644 selabel=u:object_r:system_file:s
 system/lib/libpac.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libGLESv1_CM.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libz.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib/liblocSDK5c.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstdc++.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libimageproc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libjni_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0

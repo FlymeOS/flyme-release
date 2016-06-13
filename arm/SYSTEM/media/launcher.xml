@@ -18,8 +18,8 @@
 <classname>com.meizu.flyme.toolbox.activity.ToolBoxActivity</classname>
 </favorite>
 <favorite>
-<packagename>com.meizu.account</packagename>
-<classname>com.meizu.account.AccountCenterActivity</classname>
+<packagename>com.meizu.compaign</packagename>
+<classname>com.meizu.component.HomeActivity</classname>
 </favorite>
 <favorite>
 <packagename>com.android.calendar</packagename>
