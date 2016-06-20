@@ -1796,6 +1796,8 @@ system/lib64/libwebviewchromium.so 0 0 644 selabel=u:object_r:system_file:s0 cap
 system/lib64/libvlife_media.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libvlife_openglutil.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libvlife_render.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib64/libaudioinfo_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib64/libtaglib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/theme 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/theme/icons 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
