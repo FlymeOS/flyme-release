@@ -1016,6 +1016,8 @@ system/app/PicoTts/lib/arm/libttscompat.so 0 0 644 selabel=u:object_r:system_fil
 system/app/PicoTts/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PicoTts/lib/arm64/libttscompat.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PicoTts/lib/arm64/libttspico.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/DesktopBackup 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/DesktopBackup/DesktopBackup.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Bluetooth 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Bluetooth/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Bluetooth/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
