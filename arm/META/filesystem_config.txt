@@ -998,6 +998,7 @@ system/app/Search/Search.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilit
 system/app/Search/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Search/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Search/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Search/lib/arm/libwepsdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Search/lib/arm/libmemchunk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Search/lib/arm/libwebpimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Search/lib/arm/libwebp.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
