@@ -336,7 +336,6 @@ system/framework/am.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0
 system/framework/com.android.location.provider.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/uiautomator.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/wm.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/framework/com.google.android.maps.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/settings.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/media_cmd.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/framework.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -431,6 +430,7 @@ system/priv-app/MzInput/MzInput.apk 0 0 644 selabel=u:object_r:system_file:s0 ca
 system/priv-app/MzInput/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libjni_mzinput_sougou.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/MzInput/lib/arm/libHwSentenceRec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libjni_mzinput_baidu.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libBDVoiceRecognitionClient_V1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libjni_mzinput_meizu.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -501,6 +501,10 @@ system/priv-app/SystemUITools/SystemUITools.apk 0 0 644 selabel=u:object_r:syste
 system/priv-app/SystemUITools/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SystemUITools/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SystemUITools/lib/arm/libnative_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/SystemUITools/lib/arm/libjni_systemuitools.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/SystemUITools/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/SystemUITools/lib/arm64/libnative_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/SystemUITools/lib/arm64/libjni_systemuitools.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/ManagedProvisioning 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/ManagedProvisioning/ManagedProvisioning.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/InputDevices 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -512,19 +516,6 @@ system/priv-app/Video/Video.apk 0 0 644 selabel=u:object_r:system_file:s0 capabi
 system/priv-app/Video/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libblur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libalgms1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libluajava.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libustagefright40.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libuplayer22.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libustagefright43.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libustagefright60.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libmApptracker_youtu.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libalgms.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libuencrypt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libluajava1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libustagefright50.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libuffmpeg.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Video/lib/arm/libuplayer23.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/FusedLocation 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/FusedLocation/FusedLocation.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Telecom 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -581,6 +572,8 @@ system/priv-app/SystemUI/SystemUI.apk 0 0 644 selabel=u:object_r:system_file:s0 
 system/priv-app/SystemUI/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SystemUI/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SystemUI/lib/arm/libnative_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/SystemUI/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/SystemUI/lib/arm64/libnative_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansKhmerUI-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansGurmukhiUI-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -876,7 +869,7 @@ system/app/Weather 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Weather/Weather.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Weather/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Weather/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Weather/lib/arm/liblocSDK6a.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Weather/lib/arm/liblocSDK4d.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Map 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Map/Map.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Map/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1555,6 +1548,7 @@ system/lib/libjhead.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x
 system/lib/libamapv303.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_soft_mpeg4enc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libwpa_client.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libjni_systemuitools.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libpatch-1.0.1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libdivxdrmdecrypt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libwebviewchromium_loader.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1772,6 +1766,7 @@ system/lib/libjni_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabi
 system/lib/libprocessgroup.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libeffects_mosaic.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libril-qc-qmi-1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libdce-1.1.6-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libams-1.1.7-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libams-1.1.7-m-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1801,6 +1796,8 @@ system/lib64/libvlife_openglutil.so 0 0 644 selabel=u:object_r:system_file:s0 ca
 system/lib64/libvlife_render.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libaudioinfo_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libtaglib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib64/libjni_systemuitools.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib64/libnative_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/theme 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/theme/icons 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
