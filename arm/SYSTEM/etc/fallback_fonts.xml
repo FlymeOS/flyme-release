@@ -157,16 +157,6 @@
     </family>
     <family>
         <fileset>
-            <file>Padauk.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
-            <file lang="my">SmartZawgyi.ttf</file>
-        </fileset>
-    </family>
-    <family>
-        <fileset>
             <file variant="elegant">NotoSansTelugu-Regular.ttf</file>
             <file variant="elegant">NotoSansTelugu-Bold.ttf</file>
         </fileset>
@@ -221,6 +211,11 @@
     </family>
     <family>
         <fileset>
+            <file lang="my" variant="compact">SmartZawgyi.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file variant="elegant">NotoSansMyanmar-Regular.ttf</file>
             <file variant="elegant">NotoSansMyanmar-Bold.ttf</file>
         </fileset>
@@ -229,6 +224,11 @@
         <fileset>
             <file variant="compact">NotoSansMyanmarUI-Regular.ttf</file>
             <file variant="compact">NotoSansMyanmarUI-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>Padauk.ttf</file>
         </fileset>
     </family>
     <family>

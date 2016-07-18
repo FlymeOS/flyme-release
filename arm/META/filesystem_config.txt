@@ -476,6 +476,7 @@ system/priv-app/EBook/EBook.apk 0 0 644 selabel=u:object_r:system_file:s0 capabi
 system/priv-app/EBook/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/EBook/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/EBook/lib/arm/libLineBreak-v2.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/EBook/lib/arm/libmupdf.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/EBook/lib/arm/libNativeFormats-v3.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/EBook/lib/arm/libDeflatingDecompressor-v3.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/WallpaperCropper 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -611,7 +612,6 @@ system/fonts/NotoSansSaurashtra-Regular.ttf 0 0 644 selabel=u:object_r:system_fi
 system/fonts/Roboto-Light.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/ComingSoon.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansMalayalamUI-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/fonts/SourceHanSansCN-ExtraLight.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/CutiveMono.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/MTLmr3m.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansRejang-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -661,7 +661,6 @@ system/fonts/NotoSansKayahLi-Regular.ttf 0 0 644 selabel=u:object_r:system_file:
 system/fonts/RobotoCondensed-BoldItalic.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansGujaratiUI-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansBatak-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/fonts/SourceHanSansCN-Light.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansBalinese-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/DINPro-Medium.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/DroidSans-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1785,7 +1784,6 @@ system/lib64/libmcode_image.so 0 0 644 selabel=u:object_r:system_file:s0 capabil
 system/lib64/libmobilesafe360-sdk-jni-524.2.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libnative_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libphoto_process.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/lib64/libRefocusModule.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/librender_engine.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libskia_hw_interface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libTmsdk-2.0.8-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
