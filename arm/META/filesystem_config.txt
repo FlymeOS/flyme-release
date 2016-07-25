@@ -517,6 +517,7 @@ system/priv-app/Video/Video.apk 0 0 644 selabel=u:object_r:system_file:s0 capabi
 system/priv-app/Video/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Video/lib/arm/libblur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Video/lib/arm/libMMANDKSignature.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/FusedLocation 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/FusedLocation/FusedLocation.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Telecom 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
