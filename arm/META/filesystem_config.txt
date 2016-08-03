@@ -953,7 +953,7 @@ system/app/MzPhoneLocationService 0 0 755 selabel=u:object_r:system_file:s0 capa
 system/app/MzPhoneLocationService/MzPhoneLocationService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzPhoneLocationService/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzPhoneLocationService/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzPhoneLocationService/lib/arm/liblocSDK4d.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzPhoneLocationService/lib/arm/liblocSDK6a.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzPhoneLocationService/lib/arm/libMD5.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/ToolBox 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/ToolBox/ToolBox.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1033,6 +1033,7 @@ system/app/O2OService/O2OService.apk 0 0 644 selabel=u:object_r:system_file:s0 c
 system/app/GameCenter 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/GameCenter/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/GameCenter/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/GameCenter/lib/arm/libblur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/GameCenter/lib/arm/libbspatch.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/GameCenter/GameCenter.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSetupWizard 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
