@@ -923,7 +923,6 @@ system/app/Reader/lib/arm/libwebpimage.so 0 0 644 selabel=u:object_r:system_file
 system/app/Reader/lib/arm/libwebp.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Reader/lib/arm/libbitmaps.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Reader/lib/arm/libgifimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Reader/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/vlife-sdk-mx 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/vlife-sdk-mx/vlife-sdk-mx.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Camera 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
