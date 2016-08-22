@@ -229,16 +229,8 @@
         <font weight="400" style="normal">NotoSansLaoUI-Regular.ttf</font>
         <font weight="700" style="normal">NotoSansLaoUI-Bold.ttf</font>
     </family>
-    <family lang="my" variant="compact">
+    <family>
         <font weight="400" style="normal">SmartZawgyi.ttf</font>
-    </family>
-    <family variant="elegant">
-        <font weight="400" style="normal">NotoSansMyanmar-Regular.ttf</font>
-        <font weight="700" style="normal">NotoSansMyanmar-Bold.ttf</font>
-    </family>
-    <family variant="compact">
-        <font weight="400" style="normal">NotoSansMyanmarUI-Regular.ttf</font>
-        <font weight="700" style="normal">NotoSansMyanmarUI-Bold.ttf</font>
     </family>
     <family>
         <font weight="400" style="normal">Padauk.ttf</font>
