@@ -430,8 +430,8 @@ system/priv-app/MzInput/MzInput.apk 0 0 644 selabel=u:object_r:system_file:s0 ca
 system/priv-app/MzInput/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libjni_mzinput_sougou.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/MzInput/lib/arm/libHwSentenceRec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libjni_mzinput_baidu.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/MzInput/lib/arm/libgpen_handwriter.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libBDVoiceRecognitionClient_V1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libjni_mzinput_meizu.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/TelephonyProvider 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1759,6 +1759,7 @@ system/lib/libmmcamera_hdr_lib.so 0 0 644 selabel=u:object_r:system_file:s0 capa
 system/lib/ssl 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/ssl/engines 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/ssl/engines/libkeystore.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libfilterUtils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libharfbuzz_ng.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libbcinfo.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libstagefright_avc_common.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1802,6 +1803,7 @@ system/lib64/libaudioinfo_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capab
 system/lib64/libtaglib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libjni_systemuitools.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libnative_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib64/libfilterUtils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/theme 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/theme/icons 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
