@@ -470,7 +470,10 @@ system/priv-app/Gallery/lib/arm/libkanbox_meizu_gallery_sdk.so 0 0 644 selabel=u
 system/priv-app/Gallery/lib/arm/libjni_gallery_utils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/lib/arm/libRefocusModule.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/lib/arm/libskia_hw_interface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm/libmpbase.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm/libarcsoft_makeup.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/lib/arm/libjni_eglfence.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gallery/lib/arm/libArcsoft.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/EBook 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/EBook/EBook.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/EBook/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -546,7 +549,6 @@ system/priv-app/Search/Search.apk 0 0 644 selabel=u:object_r:system_file:s0 capa
 system/priv-app/Search/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Search/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Search/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Search/lib/arm/libwepsdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Search/lib/arm/libmemchunk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Search/lib/arm/libwebpimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Search/lib/arm/libwebp.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -857,7 +859,8 @@ system/app/MzCompaign 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCompaign/MzCompaign.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCompaign/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCompaign/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzCompaign/lib/arm/libsecurity.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCompaign/lib/arm/libblur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCompaign/lib/arm/libcom_meizu_compaign_security.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzCompaign/lib/arm/libplugin_phone.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/shutdownlistener 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/shutdownlistener/shutdownlistener.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
