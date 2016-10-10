@@ -866,11 +866,6 @@ system/app/shutdownlistener 0 0 755 selabel=u:object_r:system_file:s0 capabiliti
 system/app/shutdownlistener/shutdownlistener.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/CertInstaller 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/CertInstaller/CertInstaller.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/CloudDisk 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/CloudDisk/CloudDisk.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/CloudDisk/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/CloudDisk/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/CloudDisk/lib/arm/libkanbox_meizu_sdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PrintSpooler 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PrintSpooler/PrintSpooler.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PrintSpooler/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -918,9 +913,8 @@ system/app/Life/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Life/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Life/lib/arm/libDominantColors.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Life/lib/arm/librealm-jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/lib/arm/libsnappy-jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Life/lib/arm/libdidi_secure.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Life/lib/arm/libplugin_phone.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Life/lib/arm/libcrypto_framwork.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Life/lib/arm/libimageproc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PackageInstaller 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/PackageInstaller/PackageInstaller.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
