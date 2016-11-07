@@ -1023,17 +1023,6 @@ system/app/Bluetooth/lib/arm/libbluetooth_jni.so 0 0 644 selabel=u:object_r:syst
 system/app/Bluetooth/Bluetooth.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzShare 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzShare/MzShare.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/lib/arm/libwtbt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/lib/arm/libDominantColors.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/lib/arm/libtbt.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/lib/arm/libmsc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/lib/arm/libamapv304.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/lib/arm/libamapv304ex.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/lib/arm/libimageproc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/O2OService/O2OService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/GameCenter 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/GameCenter/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/GameCenter/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
