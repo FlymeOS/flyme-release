@@ -336,6 +336,7 @@ system/framework/am.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0
 system/framework/com.android.location.provider.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/uiautomator.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/wm.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/framework/com.google.android.maps.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/settings.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/media_cmd.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/framework.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
