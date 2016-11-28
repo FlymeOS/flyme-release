@@ -571,7 +571,6 @@ system/priv-app/Music/lib/arm/libmusic_security.so 0 0 644 selabel=u:object_r:sy
 system/priv-app/Music/lib/arm/libssl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libnmddlna_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Music/lib/arm/libaudioinfo_jni_m.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libslesrender.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libencryptor.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libDClient.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -596,6 +595,7 @@ system/priv-app/CustomizeCenter/lib/arm/libwebp.so 0 0 644 selabel=u:object_r:sy
 system/priv-app/CustomizeCenter/lib/arm/libbitmaps.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libjni_customizecenter_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libgifimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/CustomizeCenter/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/CustomizeCenter.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SystemUI 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SystemUI/SystemUI.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
