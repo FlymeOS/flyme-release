@@ -581,6 +581,7 @@ system/priv-app/Music/lib/arm/libmffmpeg_jni.so 0 0 644 selabel=u:object_r:syste
 system/priv-app/Music/lib/arm/libnmdenvironment_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libaudioinfo_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libmffmpeg.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Music/lib/arm/libplugin_phone.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libvisualizer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libandroid_avoutput.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Music/lib/arm/libimageproc.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
