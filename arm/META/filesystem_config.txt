@@ -473,7 +473,6 @@ system/priv-app/Gallery/lib/arm/libgradient_render.so 0 0 644 selabel=u:object_r
 system/priv-app/Gallery/lib/arm/libskia_private.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/lib/arm/libgdamapv4sdk751.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/lib/arm/libgdamapv4sdk751ex.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Gallery/lib/arm/libkanbox_meizu_gallery_sdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/lib/arm/libjni_gallery_utils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/lib/arm/libRefocusModule.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/lib/arm/libskia_hw_interface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
