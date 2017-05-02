@@ -1,0 +1,23 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.zygote=zygote64_32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=2
+persist.sys.usb.config=mtp
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Tue May 2 08:42:54 CST 2017
+ro.bootimage.build.date.utc=1493685775
+ro.bootimage.build.fingerprint=google/aosp_angler/angler:6.0.1/M4B30Z/builder.20170502083824_I:user/test-keys

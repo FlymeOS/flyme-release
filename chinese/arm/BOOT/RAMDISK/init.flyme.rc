@@ -1,0 +1,9 @@
+# Copyright (C) 2016 Meizu
+#
+# IMPORTANT: Do not create world writable files or directories.
+# This is a common source of Android security bugs.
+#
+
+service flymed /system/bin/flymed
+    class main
+    socket flymed stream 0660 root system
