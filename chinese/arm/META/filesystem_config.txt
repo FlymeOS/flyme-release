@@ -1188,7 +1188,6 @@ system/bin/md5sum 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/sync 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/input 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/app_process32 0 2000 755 selabel=u:object_r:zygote_exec:s0 capabilities=0x0
-system/bin/qmuxd 1001 2000 700 selabel=u:object_r:qmux_exec:s0 capabilities=0x1000000000
 system/bin/ifconfig 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/route 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/install-recovery.sh 0 0 750 selabel=u:object_r:install_recovery_exec:s0 capabilities=0x0
