@@ -47,8 +47,6 @@ system/app/LockScreenFramework/LockScreenFramework.apk 0 0 644 selabel=u:object_
 system/app/MzAccount 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm64/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/MzAccount.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBatteryManager 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -73,6 +71,7 @@ system/app/MzSecurity/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabili
 system/app/MzSecurity/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libams-1.1.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libams-1.1.9-m-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm64/libmobilesafe360_clear-jni-4.3.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libdce-1.1.13-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libipc_pref.527.1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libmobilesafe360-sdk-jni-524.2.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -80,6 +79,7 @@ system/app/MzSecurity/lib/arm64/libTmsdk-2.0.9-mfr.so 0 0 644 selabel=u:object_r
 system/app/MzSecurity/lib/arm64/libupdate-jni-1.0.1.2002.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libams-1.1.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libams-1.1.9-m-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm/libmobilesafe360_clear-jni-4.3.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libdce-1.1.13-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libipc_pref.527.1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libmobilesafe360-sdk-jni-524.2.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -410,6 +410,7 @@ system/lib/libtaglib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0
 system/lib/libvlife_media.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libvlife_openglutil.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libvlife_render.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libsurfacetexture_bitmap.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/media 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/media/audio 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/media/audio/alarms 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -562,17 +563,9 @@ system/priv-app/Browser 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0
 system/priv-app/Browser/Browser.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Browser/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Browser/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Browser/lib/arm/libbspatch.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Browser/lib/arm/libgamehook.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Browser/lib/arm/libgamejavahook.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Browser/lib/arm/libjni_glrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Browser/lib/arm/libmgame_common_basemodule_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Browser/lib/arm/liboptp.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Browser/lib/arm/libpatchMerge.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Browser/lib/arm/libUiControl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Browser/lib/arm/libumc-auth.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Browser/lib/arm/libwebviewchromium.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Browser/lib/arm/libwepsdk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CalendarProvider 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CalendarProvider/CalendarProvider.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CallLogBackup 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -605,6 +598,7 @@ system/priv-app/Email/Email.apk 0 0 644 selabel=u:object_r:system_file:s0 capabi
 system/priv-app/Email/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Email/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Email/lib/arm/libbitmaps.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Email/lib/arm/libglrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/ExperienceDataSync 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/ExperienceDataSync/ExperienceDataSync.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/ExternalStorageProvider 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
