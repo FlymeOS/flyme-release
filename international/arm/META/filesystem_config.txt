@@ -363,6 +363,7 @@ system/lib64/libdlna_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabiliti
 system/lib64/libDominantColors.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libeffects_filters.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libeffects_mosaic.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib64/libeglbitmap.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libexif_gallery.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libfilterUtils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libimage_codec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -387,6 +388,7 @@ system/lib/libdlna_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities
 system/lib/libDominantColors.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libeffects_filters.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libeffects_mosaic.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libeglbitmap.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libexif_gallery.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libfilterUtils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libimage_codec.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
