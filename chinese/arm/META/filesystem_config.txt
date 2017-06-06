@@ -404,7 +404,7 @@ system/fonts/ZawgyiOne.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilitie
 system/framework 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/flyme-framework.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/flyme-res 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/framework/flyme-res/flyme-res.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/framework/flyme-res/flyme-res.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/flyme-telephony-common.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/framework.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/framework-res.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
