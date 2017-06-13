@@ -7,7 +7,7 @@ system/app/AppCenterIntl/AppCenterIntl.apk 0 0 644 selabel=u:object_r:system_fil
 system/app/AppCenterIntl/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/AppCenterIntl/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/AppCenterIntl/lib/arm/libblur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/AppCenterIntl/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/AppCenterIntl/lib/arm/libbspatch.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calculator 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calculator/Calculator.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calendar 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -48,6 +48,8 @@ system/app/MzAccount 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzAccount/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzAccount/lib/arm64/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/MzAccount.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBatteryManager 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBatteryManager/MzBatteryManager.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -70,6 +72,8 @@ system/app/MzSecurity/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities
 system/app/MzSecurity/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libams-1.1.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm64/libbuffalo-1.0.0-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm64/libbumblebee-1.0.4-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libams-1.1.9-m-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libmobilesafe360_clear-jni-4.3.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libdce-1.1.13-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -78,6 +82,8 @@ system/app/MzSecurity/lib/arm64/libmobilesafe360-sdk-jni-524.2.so 0 0 644 selabe
 system/app/MzSecurity/lib/arm64/libTmsdk-2.0.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libupdate-jni-1.0.1.2002.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libams-1.1.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm/libbuffalo-1.0.0-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm/libbumblebee-1.0.4-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libams-1.1.9-m-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libmobilesafe360_clear-jni-4.3.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libdce-1.1.13-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -87,11 +93,6 @@ system/app/MzSecurity/lib/arm/libTmsdk-2.0.9-mfr.so 0 0 644 selabel=u:object_r:s
 system/app/MzSecurity/lib/arm/libupdate-jni-1.0.1.2002.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/MzSecurity.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSetupWizard 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzSetupWizard/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzSetupWizard/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzSetupWizard/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzSetupWizard/lib/arm64/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzSetupWizard/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSetupWizard/MzSetupWizard.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzShare 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzShare/MzShare.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -111,9 +112,9 @@ system/app/NetAdmin/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0
 system/app/NetAdmin/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/NetAdmin/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/NetAdmin/lib/arm64/libpingutils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/NetAdmin/lib/arm64/libTmsdk-2.0.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/NetAdmin/lib/arm64/libTmsdk-2.0.10-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/NetAdmin/lib/arm/libpingutils.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/NetAdmin/lib/arm/libTmsdk-2.0.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/NetAdmin/lib/arm/libTmsdk-2.0.10-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/NetAdmin/NetAdmin.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/NotePaper 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/NotePaper/NotePaper.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0

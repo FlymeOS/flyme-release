@@ -42,7 +42,7 @@ name="MzPhoneLocationService.apk" certificate="build/target/product/security/pla
 name="MzUpdate.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="NotePaper.apk" certificate="PRESIGNED" private_key=""
 name="Weather.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
-name="MzAccountPlugin.apk" certificate="PRESIGNED" private_key=""
+name="GameSDKService.apk" certificate="PRESIGNED" private_key=""
 name="DocumentsUI.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="MzSetupWizard.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="MzCompaign.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
