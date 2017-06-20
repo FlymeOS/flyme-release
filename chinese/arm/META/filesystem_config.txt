@@ -686,6 +686,8 @@ system/priv-app/FusedLocation 0 0 755 selabel=u:object_r:system_file:s0 capabili
 system/priv-app/FusedLocation/FusedLocation.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Gallery/Gallery.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/GameSDKService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/GameSDKService/GameSDKService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/HomeTool 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/HomeTool/HomeTool.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/InCallUI 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
