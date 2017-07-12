@@ -650,13 +650,8 @@ system/priv-app/CustomizeCenter 0 0 755 selabel=u:object_r:system_file:s0 capabi
 system/priv-app/CustomizeCenter/CustomizeCenter.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/CustomizeCenter/lib/arm/libbitmaps.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/CustomizeCenter/lib/arm/libgifimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libjni_customizecenter_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/CustomizeCenter/lib/arm/libmemchunk.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/CustomizeCenter/lib/arm/libwebpimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/CustomizeCenter/lib/arm/libwebp.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Dialer 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Dialer/Dialer.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/DownloadProvider 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
