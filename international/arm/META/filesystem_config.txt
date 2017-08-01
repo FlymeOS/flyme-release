@@ -45,11 +45,6 @@ system/app/KeyChain/KeyChain.apk 0 0 644 selabel=u:object_r:system_file:s0 capab
 system/app/LockScreenFramework 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/LockScreenFramework/LockScreenFramework.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm64/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/MzAccount.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBatteryManager 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBatteryManager/MzBatteryManager.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0

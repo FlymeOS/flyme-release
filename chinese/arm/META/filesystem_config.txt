@@ -87,11 +87,6 @@ system/app/Mall/Mall.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=
 system/app/Map 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Map/Map.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/MzAccount/lib/arm64/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/MzAccount.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBatteryManager 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBatteryManager/MzBatteryManager.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -639,7 +634,6 @@ system/priv-app/Browser 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0
 system/priv-app/Browser/Browser.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Browser/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Browser/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/Browser/lib/arm/libpatchMerge.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Browser/lib/arm/libUiControl.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Browser/lib/arm/libumc-auth.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CalendarProvider 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
