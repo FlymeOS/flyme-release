@@ -134,6 +134,8 @@ system/app/MzSecurity/lib/arm64/libmobilesafe360_clear-jni-4.3.so 0 0 644 selabe
 system/app/MzSecurity/lib/arm64/libmobilesafe360-sdk-jni-524.2.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libTmsdk-2.0.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libupdate-jni-1.0.1.2002.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm64/libavlm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm64/libavlasys.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libams-1.1.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libbuffalo-1.0.0-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libams-1.1.9-m-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -144,6 +146,8 @@ system/app/MzSecurity/lib/arm/libmobilesafe360_clear-jni-4.3.so 0 0 644 selabel=
 system/app/MzSecurity/lib/arm/libmobilesafe360-sdk-jni-524.2.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libTmsdk-2.0.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libupdate-jni-1.0.1.2002.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm/libavlm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm/libavlasys.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/MzSecurity.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSetupWizard 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSetupWizard/MzSetupWizard.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
