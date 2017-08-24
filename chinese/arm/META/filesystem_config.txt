@@ -39,8 +39,8 @@ system/app/CosMaster/lib/arm64/libSecureKeyBoxJava.so 0 0 644 selabel=u:object_r
 system/app/CosMaster/lib/arm/libSecureKeyBoxJava.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/DesktopBackup 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/DesktopBackup/DesktopBackup.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/DocumentsUI 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/DocumentsUI/DocumentsUI.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/DocumentsUI 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/DocumentsUI/DocumentsUI.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/DownloadProviderUi 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/DownloadProviderUi/DownloadProviderUi.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/FileManager 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -654,6 +654,7 @@ system/priv-app/CustomizeCenter 0 0 755 selabel=u:object_r:system_file:s0 capabi
 system/priv-app/CustomizeCenter/CustomizeCenter.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/CustomizeCenter/lib/arm/libgifimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libjni_customizecenter_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -751,8 +752,6 @@ system/priv-app/ProxyHandler/ProxyHandler.apk 0 0 644 selabel=u:object_r:system_
 system/priv-app/SceneInfo 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SceneInfo/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SceneInfo/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/SceneInfo/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/SceneInfo/lib/arm64/libsmart_analyzer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SceneInfo/lib/arm/libsmart_analyzer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/SceneInfo/SceneInfo.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Settings 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0

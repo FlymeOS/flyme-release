@@ -28,8 +28,8 @@ system/app/CertInstaller 0 0 755 selabel=u:object_r:system_file:s0 capabilities=
 system/app/CertInstaller/CertInstaller.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/ConnectivitySettings 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/ConnectivitySettings/ConnectivitySettings.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/DocumentsUI 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/DocumentsUI/DocumentsUI.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/DocumentsUI 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/DocumentsUI/DocumentsUI.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/DownloadProviderUi 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/DownloadProviderUi/DownloadProviderUi.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/FileManager 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
