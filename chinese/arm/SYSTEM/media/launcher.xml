@@ -4,7 +4,7 @@
 <screen>1</screen>
 <x>3</x>
 <y>0</y>
-<title>系统工具</title>
+<title>系统应用</title>
 <favorite>
 <packagename>com.meizu.flyme.mall</packagename>
 <classname>com.meizu.flyme.mall.modules.home.HomeActivity</classname>
@@ -14,8 +14,8 @@
 <classname>com.meizu.store.screen.main.Main2Activity</classname>
 </favorite>
 <favorite>
-<packagename>com.meizu.net.map</packagename>
-<classname>com.meizu.net.map.MainMapActivity</classname>
+<packagename>com.baidu.BaiduMap.meizu</packagename>
+<classname>com.baidu.baidumaps.WelcomeScreen</classname>
 </favorite>
 <favorite>
 <packagename>com.meizu.notepaper</packagename>
