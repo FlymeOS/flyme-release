@@ -663,7 +663,6 @@ system/priv-app/CustomizeCenter/lib/arm/libgifimage.so 0 0 644 selabel=u:object_
 system/priv-app/CustomizeCenter/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libjni_customizecenter_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/CustomizeCenter/lib/arm/libmzAdSDk_plugin.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libpl_droidsonroids_gif_surface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libplugin_phone.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libfb_jpegturbo.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -745,6 +744,8 @@ system/priv-app/MzInput/lib/arm/libgpen_handwriter.so 0 0 644 selabel=u:object_r
 system/priv-app/MzInput/lib/arm/libjni_mzinput_meizu.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libjni_mzinput_sougou.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libspeex_sogou_v42.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/MzInput/lib/arm/libcom_meizu_flyme_input_security.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/MzInput/lib/arm/libspeex.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/MzInput.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/NetContactService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/NetContactService/NetContactService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
