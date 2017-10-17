@@ -31,8 +31,8 @@
 </favorite>
 </folder>
 <appwidget>
-<packagename>com.meizu.net.search</packagename>
-<classname>com.meizu.net.search.searchwidget.SearchWidget</classname>
+<packagename>com.meizu.flyme.weather</packagename>
+<classname>com.meizu.flyme.weather.WeatherWidgetProvider</classname>
 <screen>0</screen>
 <x>0</x>
 <y>0</y>
