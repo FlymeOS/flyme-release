@@ -1,0 +1,15 @@
+# Android fstab file.
+# The filesystem that contains the filesystem checker binary (typically /system) cannot
+# specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
+
+#TODO: Add 'check' as fs_mgr_flags with data partition.
+# Currently we dont have e2fsck compiled. So fs check would failed.
+
+#<src>                                  <mnt_point>       <type>  <mnt_flags and options>                     <fs_mgr_flags>
+/dev/block/bootdevice/by-name/system    /           ext4    ro,barrier=1,discard                                wait,slotselect
+/dev/block/bootdevice/by-name/vendor    /vendor     ext4    ro,barrier=1,discard                                wait,slotselect
+/dev/block/bootdevice/by-name/modem     /firmware/radio    vfat    ro,shortname=lower,uid=1000,gid=0,dmask=227,fmask=337,context=u:object_r:firmware_file:s0   wait,slotselect
+/dev/block/bootdevice/by-name/userdata    /data             ext4    noatime,nosuid,nodev,barrier=1,noauto_da_alloc      latemount,wait,check,formattable,fileencryption=ice
+/dev/block/zram0                        none              swap    defaults                                            zramsize=536870912
+/dev/block/bootdevice/by-name/misc        /misc           emmc  defaults defaults
+/devices/*/xhci-hcd.0.auto/usb*           auto              vfat    defaults                                            voldmanaged=usb:auto
