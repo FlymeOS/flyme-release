@@ -85,8 +85,6 @@ system/app/LockScreenFramework 0 0 755 selabel=u:object_r:system_file:s0 capabil
 system/app/LockScreenFramework/LockScreenFramework.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Mall 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Mall/Mall.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Map 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Map/Map.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzAccount/MzAccount.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzBatteryManager 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -133,6 +131,8 @@ system/app/MzSecurity/lib/arm64/libmobilesafe360_clear-jni-4.3.so 0 0 644 selabe
 system/app/MzSecurity/lib/arm64/libmobilesafe360-sdk-jni-524.2.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libTmsdk-2.0.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm64/libupdate-jni-1.0.1.2002.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm64/libavlm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm64/libavlasys.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libams-1.1.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libams-1.1.9-m-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libbuffalo-1.0.0-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -143,6 +143,8 @@ system/app/MzSecurity/lib/arm/libmobilesafe360_clear-jni-4.3.so 0 0 644 selabel=
 system/app/MzSecurity/lib/arm/libmobilesafe360-sdk-jni-524.2.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libTmsdk-2.0.9-mfr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/lib/arm/libupdate-jni-1.0.1.2002.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm/libavlm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzSecurity/lib/arm/libavlasys.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzSecurity/MzSecurity.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzShare 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzShare/MzShare.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -157,6 +159,8 @@ system/app/MzUpdate/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabili
 system/app/MzUpdate/lib/arm64/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzUpdate/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/MzUpdate/MzUpdate.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCountService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/MzCountService/MzCountService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/NetAdmin 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/NetAdmin/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/NetAdmin/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -625,10 +629,10 @@ system/priv-app/CustomizeCenter/lib/arm 0 0 755 selabel=u:object_r:system_file:s
 system/priv-app/CustomizeCenter/lib/arm/libfb_jpegturbo.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libjni_customizecenter_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/CustomizeCenter/lib/arm/libmzAdSDk_plugin.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libpl_droidsonroids_gif_surface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/CustomizeCenter/lib/arm/libplugin_phone.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/CustomizeCenter/lib/arm/libgifimage.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Dialer 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Dialer/Dialer.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/DocumentsUI 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -688,6 +692,8 @@ system/priv-app/MzInput/lib/arm/libgpen_handwriter.so 0 0 644 selabel=u:object_r
 system/priv-app/MzInput/lib/arm/libjni_mzinput_meizu.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libjni_mzinput_sougou.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libspeex_sogou_v42.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/MzInput/lib/arm/libcom_meizu_flyme_input_security.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/MzInput/lib/arm/libspeex.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/MzInput.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzSetupWizard 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzSetupWizard/MzSetupWizard.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -741,7 +747,16 @@ system/priv-app/VoiceAssistant/lib 0 0 755 selabel=u:object_r:system_file:s0 cap
 system/priv-app/VoiceAssistant/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm64/libglrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm64/libspeex_sogou_v43.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm64/libofflinesem.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm64/libpocket.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm64/libwakeup.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm64/libencrypt_sogou_v00.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm/libglrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm/libspeex_sogou_v43.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm/libofflinesem.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm/libpocket.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm/libencrypt_sogou_v00.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/VoiceAssistant.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VpnDialogs 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VpnDialogs/VpnDialogs.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -750,6 +765,8 @@ system/priv-app/Wallet/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilitie
 system/priv-app/Wallet/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Wallet/lib/arm/libcom_meizu_flyme_wallet_security.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Wallet/lib/arm/libplugin_phone.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Wallet/lib/arm/liblocSDK7.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Wallet/lib/arm/libfacial_action.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/Wallet/Wallet.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/YellowPage 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/YellowPage/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
