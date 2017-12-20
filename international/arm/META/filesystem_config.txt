@@ -8,6 +8,12 @@ system/app/AppCenterIntl/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilit
 system/app/AppCenterIntl/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/AppCenterIntl/lib/arm/libblur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/AppCenterIntl/lib/arm/libbspatch.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/AppCenterIntl/lib/arm/libsecurity.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/AppCenterIntl/lib/arm/libjni_customizecenter_gauss_blur.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/AppCenterIntl/lib/arm/libpl_droidsonroids_gif.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/AppCenterIntl/lib/arm/libimagepipeline.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/AppCenterIntl/lib/arm/libpl_droidsonroids_gif_surface.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/AppCenterIntl/lib/arm/libplugin_phone.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calculator 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calculator/Calculator.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calendar 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
