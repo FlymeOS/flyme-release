@@ -807,13 +807,13 @@ system/priv-app/VoiceAssistant/lib 0 0 755 selabel=u:object_r:system_file:s0 cap
 system/priv-app/VoiceAssistant/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm64/libglrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/VoiceAssistant/lib/arm64/libspeex_sogou_v43.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm64/libsogou_speex_nt_v01.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm64/libofflinesem.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm64/libpocket.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm64/libencrypt_sogou_v00.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm64/libwakeup.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm/libglrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/VoiceAssistant/lib/arm/libspeex_sogou_v43.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/VoiceAssistant/lib/arm/libsogou_speex_nt_v01.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm/libofflinesem.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm/libpocket.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/VoiceAssistant/lib/arm/libencrypt_sogou_v00.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
