@@ -20,13 +20,12 @@ system/app/Camera 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Camera/Camera.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Camera/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Camera/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Camera/lib/arm/libFlymeFixLinker.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Camera/lib/arm/libglrenderer.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Camera/lib/arm/liblejent-code.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Camera/lib/arm/libmicodecode.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Camera/lib/arm/libmzGifEncoder_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Camera/lib/arm/libmzGifEncoder.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Camera/lib/arm/libPanoramaStitcher.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/Camera/lib/arm/libFNVfbEngineLib_m80.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/CaptivePortalLogin 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/CaptivePortalLogin/CaptivePortalLogin.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/CertInstaller 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
