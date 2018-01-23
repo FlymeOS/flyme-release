@@ -362,6 +362,7 @@ system/lib64/libtaglib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities
 system/lib64/libvlife_media.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libvlife_openglutil.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib64/libvlife_render.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib64/libQCode.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libblasV8.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libdlna_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libDominantColors.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -392,6 +393,7 @@ system/lib/libtaglib.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0
 system/lib/libvlife_media.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libvlife_openglutil.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libvlife_render.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libQCode.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/media 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/media/audio 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/media/audio/alarms 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0

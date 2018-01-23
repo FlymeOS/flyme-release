@@ -10,8 +10,6 @@ import /init.${ro.hardware}.rc
 import /init.usb.configfs.rc
 import /init.${ro.zygote}.rc
 
-import /init.flyme.rc
-
 on early-init
     # Set init and its forked children's oom_adj.
     write /proc/1/oom_score_adj -1000
@@ -459,6 +457,7 @@ on post-fs-data
     mkdir /data/user 0711 system system
     mkdir /data/user_de 0711 system system
     symlink /data/data /data/user/0
+    symlink /data/data /data/user_de/0
 
     mkdir /data/media 0770 media_rw media_rw
     mkdir /data/media/obb 0770 media_rw media_rw
@@ -661,3 +660,7 @@ on property:ro.debuggable=1
 service flash_recovery /system/bin/install-recovery.sh
     class main
     oneshot
+
+service flymed /system/bin/flymed
+    class main
+    socket flymed stream 0660 root system
