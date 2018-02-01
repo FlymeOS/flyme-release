@@ -629,8 +629,6 @@ system/priv-app/MzInput/lib/arm/libgpen_handwriter.so 0 0 644 selabel=u:object_r
 system/priv-app/MzInput/lib/arm/libjni_mzinput_meizu.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libjni_mzinput_sougou.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/lib/arm/libspeex_sogou_v42.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/MzInput/lib/arm/libcom_meizu_flyme_input_security.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/MzInput/lib/arm/libspeex.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzInput/MzInput.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzSetupWizard 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/MzSetupWizard/MzSetupWizard.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
