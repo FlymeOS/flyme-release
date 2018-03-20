@@ -163,6 +163,8 @@ system/customizecenter/theme/icons 0 0 644 selabel=u:object_r:system_file:s0 cap
 system/customizecenter/theme/mtpks 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/theme/mtpks/com.meizu.theme.mznanshen.mtpk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/theme/mtpks/com.meizu.theme.mznvshen.mtpk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/customizecenter/dynamiclockscreen 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/customizecenter/dynamiclockscreen/DynamicLockScreen.dex 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/wallpapers 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/wallpapers/a.jpg 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/customizecenter/wallpapers/a_thumb.jpg 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -182,11 +184,6 @@ system/fonts/ComingSoon.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabiliti
 system/fonts/CutiveMono.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/DancingScript-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/DancingScript-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/fonts/DINPro-Black.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/fonts/DINPro-Bold.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/fonts/DINPro-Light.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/fonts/DINPro-Medium.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/fonts/DINPro-Regular.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/DroidSans-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/DroidSansMono.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/DroidSans.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -194,11 +191,14 @@ system/fonts/Flyme-Light.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilit
 system/fonts/NotoColorEmoji.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoNaskhArabic-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoNaskhArabic-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/fonts/SFDIN-Light.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoNaskhArabicUI-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoNaskhArabicUI-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansArmenian-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansArmenian-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansBalinese-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/fonts/DroidSansFallback.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/fonts/SFDIN-Bold.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansBamum-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansBatak-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansBengali-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -230,6 +230,7 @@ system/fonts/NotoSansGujaratiUI-Regular.ttf 0 0 644 selabel=u:object_r:system_fi
 system/fonts/NotoSansGurmukhi-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansGurmukhi-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansGurmukhiUI-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/fonts/SFDIN-Regular.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansGurmukhiUI-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansHanunoo-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansHebrew-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -283,6 +284,7 @@ system/fonts/NotoSansTaiLe-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0
 system/fonts/NotoSansTaiTham-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansTaiViet-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansTamil-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/fonts/SFDIN-Medium.otf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansTamil-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansTamilUI-Bold.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/fonts/NotoSansTamilUI-Regular.ttf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0

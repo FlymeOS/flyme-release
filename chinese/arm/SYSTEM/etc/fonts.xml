@@ -87,17 +87,18 @@
         <font weight="400" style="normal">CarroisGothicSC-Regular.ttf</font>
     </family>
 
-    <family name="DINPro">
-        <font weight="300" style="normal">DINPro-Light.otf</font>
-        <font weight="400" style="normal">DINPro-Regular.otf</font>
-        <font weight="500" style="normal">DINPro-Medium.otf</font>
-        <font weight="700" style="normal">DINPro-Bold.otf</font>
-        <font weight="900" style="normal">DINPro-Black.otf</font>
+
+    <family name="SFDIN">
+        <font weight="300" style="normal">SFDIN-Light.otf</font>
+        <font weight="400" style="normal">SFDIN-Regular.otf</font>
+        <font weight="500" style="normal">SFDIN-Medium.otf</font>
+        <font weight="700" style="normal">SFDIN-Bold.otf</font>
     </family>
-    
-    <alias name="DINPro-light" to="DINPro" weight="300" />
-    <alias name="DINPro-medium" to="DINPro" weight="500" />
-    <alias name="DINPro-black" to="DINPro" weight="900" />
+
+    <alias name="SFDIN-light" to="SFDIN" weight="300" />
+    <alias name="SFDIN-Regular" to="SFDIN" weight="400" />
+    <alias name="SFDIN-medium" to="SFDIN" weight="500" />
+    <alias name="SFDIN-bold" to="SFDIN" weight="700" />
 
     <family name="Flyme-Light">
         <font weight="400" style="normal">Flyme-Light.ttf</font>
@@ -138,7 +139,7 @@
         <font weight="700" style="normal">NotoSansGeorgian-Bold.ttf</font>
     </family>
     <family lang="und-Deva" variant="elegant">
-        <font weight="400" style="normal">NotoSansDevanagari-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansHindi.ttf</font>
         <font weight="700" style="normal">NotoSansDevanagari-Bold.ttf</font>
     </family>
     <family lang="und-Deva" variant="compact">
@@ -150,7 +151,7 @@
          danda characters.
     -->
     <family lang="und-Gujr" variant="elegant">
-        <font weight="400" style="normal">NotoSansGujarati-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansGujarati.ttf</font>
         <font weight="700" style="normal">NotoSansGujarati-Bold.ttf</font>
     </family>
     <family lang="und-Gujr" variant="compact">
@@ -158,7 +159,7 @@
         <font weight="700" style="normal">NotoSansGujaratiUI-Bold.ttf</font>
     </family>
     <family lang="und-Guru" variant="elegant">
-        <font weight="400" style="normal">NotoSansGurmukhi-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansPunjabi.ttf</font>
         <font weight="700" style="normal">NotoSansGurmukhi-Bold.ttf</font>
     </family>
     <family lang="und-Guru" variant="compact">
@@ -170,7 +171,7 @@
         <font weight="700" style="normal">NotoSansTamil-Bold.ttf</font>
     </family>
     <family lang="und-Taml" variant="compact">
-        <font weight="400" style="normal">NotoSansTamilUI-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansTamil.ttf</font>
         <font weight="700" style="normal">NotoSansTamilUI-Bold.ttf</font>
     </family>
     <family lang="und-Mlym" variant="elegant">
@@ -182,7 +183,7 @@
         <font weight="700" style="normal">NotoSansMalayalamUI-Bold.ttf</font>
     </family>
     <family lang="und-Beng" variant="elegant">
-        <font weight="400" style="normal">NotoSansBengali-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansBengali.ttf</font>
         <font weight="700" style="normal">NotoSansBengali-Bold.ttf</font>
     </family>
     <family lang="und-Beng" variant="compact">
@@ -204,7 +205,7 @@
         <font weight="400" style="normal">Padauk.ttf</font>
     </family>
     <family lang="und-Telu" variant="elegant">
-        <font weight="400" style="normal">NotoSansTelugu-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansTelugu.ttf</font>
         <font weight="700" style="normal">NotoSansTelugu-Bold.ttf</font>
     </family>
     <family lang="und-Telu" variant="compact">
@@ -212,7 +213,7 @@
         <font weight="700" style="normal">NotoSansTeluguUI-Bold.ttf</font>
     </family>
     <family lang="und-Knda" variant="elegant">
-        <font weight="400" style="normal">NotoSansKannada-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansKannada.ttf</font>
         <font weight="700" style="normal">NotoSansKannada-Bold.ttf</font>
     </family>
     <family lang="und-Knda" variant="compact">
@@ -220,7 +221,7 @@
         <font weight="700" style="normal">NotoSansKannadaUI-Bold.ttf</font>
     </family>
     <family lang="und-Orya" variant="elegant">
-        <font weight="400" style="normal">NotoSansOriya-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansOdia.ttf</font>
         <font weight="700" style="normal">NotoSansOriya-Bold.ttf</font>
     </family>
     <family lang="und-Orya" variant="compact">
@@ -249,7 +250,7 @@
         <font weight="700" style="normal">NotoSansLaoUI-Bold.ttf</font>
     </family>
     <family lang="und-Mymr" variant="elegant">
-        <font weight="400" style="normal">NotoSansMyanmar-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansMyanmar.ttf</font>
         <font weight="700" style="normal">NotoSansMyanmar-Bold.ttf</font>
     </family>
     <family lang="und-Mymr" variant="compact">
@@ -259,6 +260,9 @@
     <family lang="und-Thaa">
         <font weight="400" style="normal">NotoSansThaana-Regular.ttf</font>
         <font weight="700" style="normal">NotoSansThaana-Bold.ttf</font>
+    </family>
+    <family>
+        <font weight="400" style="normal">DroidSansFallback.ttf</font>
     </family>
     <family lang="und-Cham">
         <font weight="400" style="normal">NotoSansCham-Regular.ttf</font>
@@ -386,9 +390,6 @@
     </family>
     <family>
         <font weight="400" style="normal">NotoSansSymbols-Regular-Subsetted2.ttf</font>
-    </family>
-    <family>
-        <font weight="400" style="normal">DroidSansFallback.ttf</font>
     </family>
     <!--
         Tai Le and Mongolian are intentionally kept last, to make sure they don't override
